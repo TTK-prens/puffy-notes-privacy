@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Puffy Notes gizlilik politikası. Privacy policy of the Puffy Notes handwriting app.">
+<title>Puffy Notes Gizlilik Politikası / Privacy Policy</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%233f51b5'/%3E%3Cpath fill='%23fff' d='M20 46l4-12 22-22a4 4 0 0 1 6 6L30 40z'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#eef0f8; --surface:#ffffff; --ink:#1d2033; --muted:#5b6078; --line:#dcdff0;
+  --accent:#3f51b5; --accent-ink:#ffffff; --accent-soft:#e3e7fb; --link:#2f3f9e;
+  --f-body:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --f-mono:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0f1119; --surface:#181b27; --ink:#eceef8; --muted:#9aa0b8; --line:#2a2e40;
+    --accent:#8c9eff; --accent-ink:#0d1030; --accent-soft:#222744; --link:#a9b6ff; }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);line-height:1.65;font-size:16px}
+.wrap{max-width:740px;margin:0 auto;padding:36px 16px 72px}
+.head{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+.badge{width:52px;height:52px;border-radius:18px;flex:none;background:var(--accent);display:grid;place-items:center;
+  box-shadow:0 8px 18px rgba(63,81,181,.28),inset 0 -4px 8px rgba(0,0,0,.14),inset 0 3px 6px rgba(255,255,255,.35)}
+.badge svg{width:28px;height:28px;fill:var(--accent-ink)}
+.brand{font-weight:800;font-size:22px;letter-spacing:.01em}
+.langbar{display:flex;gap:8px;margin:18px 0 26px;flex-wrap:wrap}
+.langbtn{font:inherit;font-size:14px;font-weight:700;padding:8px 20px;min-height:40px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--line);background:var(--surface);color:var(--muted)}
+.langbtn:hover{color:var(--ink)}
+.langbtn[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:transparent}
+.langbtn:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+h1{font-size:clamp(26px,5vw,34px);line-height:1.2;margin:0 0 8px;letter-spacing:-.01em}
+section.lang-sec{display:none}
+section.lang-sec.on{display:block}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:26px;padding:8px 26px 20px;
+  box-shadow:0 14px 30px rgba(40,50,120,.10),inset 0 2px 0 rgba(255,255,255,.6)}
+p{margin:14px 0 0;max-width:68ch}
+ul{margin:10px 0 0;padding-left:22px;max-width:66ch}
+li{margin-bottom:9px}
+a{color:var(--link);text-underline-offset:3px;overflow-wrap:anywhere}
+strong{font-weight:700}
+footer{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+</style>
+<noscript><style>section.lang-sec{display:block;margin-bottom:48px}.langbar{display:none}</style></noscript>
+</head>
+<body>
+<div class="wrap">
+<div class="head">
+  <div class="badge" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M14 50l5-15 27-27a5 5 0 0 1 7 7L26 42z"/><path d="M12 52l9-3-6-6z"/></svg></div>
+  <div class="brand">Puffy Notes</div>
+</div>
+<div class="langbar" role="group" aria-label="Language / Dil">
+  <button class="langbtn" type="button" data-lang="tr" aria-pressed="true">Türkçe</button>
+  <button class="langbtn" type="button" data-lang="en" aria-pressed="false">English</button>
+</div>
+
+<section class="lang-sec on" id="tr" lang="tr">
+<h1>Gizlilik Politikası</h1>
+<div class="card">
+<p><strong>Son güncelleme:</strong> 27 Eylül 2026</p>
+<p>Puffy Notes ("uygulama"), el yazısıyla not almak için bir uygulamadır. Bu politika verilerine ne olduğunu açıklar.</p>
+<p><strong>Uygulama neyi saklar.</strong> Notların (el yazısı, sayfalar, çevrilmiş metinler, klasörler) ve uygulama ayarları <strong>yalnızca cihazında</strong> saklanır. Uygulamanın hesabı, kendi sunucusu ve kendi analitiği yoktur. Google AdMob'dan reklam gösterir (aşağıdaki "Reklamlar" maddesine bak).</p>
+<p><strong>Cihazından çıkanlar.</strong></p>
+<ul>
+<li><strong>Tanıma modelleri.</strong> El yazısını metne çevirmek için seçtiğin her dilin tanıma modeli Google ML Kit ile indirilir. İndirme internet kullanır; <strong>notların hiçbir yere gönderilmez</strong>. Model indikten sonra tanıma cihazında, internetsiz çalışır.</li>
+<li><strong>Google ML Kit.</strong> Google'ın ürünü olan ML Kit SDK'sı, Google'ın ML Kit belgelerinde ve gizlilik şartlarında anlatıldığı gibi teknik tanılama ve kullanım/performans bilgisi toplayabilir. Uygulama, el yazısını cihazında tanımak için gerekenin ötesinde not içeriğini ML Kit'e vermez.</li>
+<li><strong>Reklamlar (Google AdMob).</strong> Uygulama, Google AdMob üzerinden ödüllü reklamlar (yeni bir şey oluşturmak ya da bir süre reklamsız kullanmak için <strong>senin</strong> izlemeyi seçtiğin) ve ara sıra tam ekran reklamlar gösterir. Reklamları göstermek ve ölçmek için Google ve reklam ortakları, Google'ın <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Google'ın hizmetlerini kullanan sitelerden veya uygulamalardan gelen bilgileri nasıl kullandığı</a> sayfasında anlatıldığı gibi cihazının reklam kimliğini, IP adresini ve cihaz/uygulama bilgilerini kullanabilir. Reklamlar, tercihlerine göre kişiselleştirilmiş ya da kişiselleştirilmemiş olabilir. Avrupa Ekonomik Alanı, Birleşik Krallık veya İsviçre'deysen uygulama reklam göstermeden önce Google'ın onay formuyla iznini ister ve tercihini uygulamanın Ayarlar bölümünden ("Reklam gizlilik tercihleri") değiştirebilirsin. Reklam kimliğini Android ayarlarından sıfırlayabilir veya silebilir, reklam kişiselleştirmesini kapatabilirsin. <strong>Notların reklam hizmetine asla verilmez.</strong> Uygulama, kaç şey oluşturduğunu ve reklamların ne zamana kadar kaldırıldığını cihazında hatırlar.</li>
+<li><strong>Kaydetmeyi veya paylaşmayı seçtiğin dosyalar.</strong> Dışa aktarmalar (PDF, PNG, ZIP, TXT) ve yedekler, sistem dosya penceresinde <strong>senin</strong> seçtiğin yere yazılır veya paylaşım sayfasında <strong>senin</strong> seçtiğin uygulamaya verilir. Uygulama bunları asla yüklemez.</li>
+</ul>
+<p><strong>Ses kayıtları.</strong> Yalnızca <strong>sen</strong> bir notun içinde kayıt başlattığında uygulama mikrofondan kayıt yapar ve sesi uygulamanın özel depolamasında, notun yanında bir dosya olarak saklar. Ses asla yüklenmez, başka bir amaçla okunmaz; kaydı ya da notu sildiğinde silinir. Notu ya da uygulamayı terk ettiğinde kayıt durur.</p>
+<p><strong>Belge tarayıcı.</strong> <em>Belge tara</em> Google Play hizmetlerinin parçası olan ve cihazında çalışan Google belge tarayıcısını kullanır; uygulama yalnızca taranan sayfaları alır.</p>
+<p><strong>İzinler.</strong> Uygulama internet erişimi (tanıma modeli indirmek ve reklam göstermek için), ağ durumu (mobil veri kullanmadan önce uyarmak için) ve yalnızca sen kayıt başlattığında mikrofon izni ister. Ayrıca yalnızca reklam hizmetinin kullandığı Android reklam kimliği iznini bildirir. Depolama, kişiler veya konum izni istemez.</p>
+<p><strong>Verilerini silme.</strong> Uygulamada bir notu sil (30 gün çöp kutusunda kalır), ya da Android ayarlarından uygulamanın verilerini temizle veya uygulamayı kaldır. Oluşturduğun yedek dosyaları kaydettiğin yerde durur; onları orada sil.</p>
+<p><strong>Çocuklar.</strong> Uygulama 13 yaş altı çocuklara yönelik değildir ve onların verilerini bilerek toplamaz.</p>
+<p><strong>Değişiklikler.</strong> Politika değişirse yeni sürüm aynı adreste yeni tarihle yayınlanır.</p>
+<p><strong>İletişim:</strong> <a href="mailto:ttkprens@gmail.com">ttkprens@gmail.com</a></p>
+</div>
+</section>
+
+<section class="lang-sec" id="en" lang="en">
+<h1>Privacy Policy</h1>
+<div class="card">
+<p><strong>Last updated:</strong> 27 September 2026</p>
+<p>Puffy Notes ("the app") is a note-taking app for handwriting. This policy explains what happens to your data.</p>
+<p><strong>What the app stores.</strong> Your notes (handwriting, pages, converted text, folders) and the app settings are stored <strong>only on your device</strong>. The app has no accounts, no servers of its own and no analytics of its own. It shows ads from Google AdMob (see "Ads" below).</p>
+<p><strong>What leaves your device.</strong></p>
+<ul>
+<li><strong>Recognition models.</strong> To convert handwriting to text, the app downloads a recognition model for each language you choose, using Google ML Kit. The download uses the internet; <strong>your notes are not sent anywhere</strong>. After a model is downloaded, recognition runs on your device, without internet.</li>
+<li><strong>Google ML Kit.</strong> The ML Kit SDK, which is a Google product, may collect technical diagnostics and usage/performance information as described in Google's ML Kit documentation and privacy terms. The app does not give ML Kit your note contents beyond what is needed to recognize the handwriting on your device.</li>
+<li><strong>Ads (Google AdMob).</strong> The app shows rewarded ads (which you choose to watch to make something new, or to remove ads for a while) and, from time to time, full-screen ads, through Google AdMob. To show and measure ads, Google and its advertising partners may use your device's advertising ID, IP address and device and app information, as described in Google's <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use our services</a>. Ads can be personalised or not, depending on your choices. If you are in the European Economic Area, the United Kingdom or Switzerland, the app asks for your consent with Google's consent form before showing ads, and you can change your choice in the app's Settings ("Ad privacy choices"). You can reset or delete your advertising ID, and switch off ad personalisation, in your Android settings. <strong>Your notes are never given to the ad service.</strong> The app remembers on your device how many things you made and until when ads are removed.</li>
+<li><strong>Files you choose to save or share.</strong> Exports (PDF, PNG, ZIP, TXT) and backups are written where <strong>you</strong> choose in the system file dialog, or handed to the app <strong>you</strong> choose in the share sheet. The app never uploads them.</li>
+</ul>
+<p><strong>Sound recordings.</strong> Only when <strong>you</strong> start a recording inside a note, the app records from the microphone and keeps the sound as a file in the app's private storage, next to the note. The sound is never uploaded, is not read by the app for any other purpose, and is deleted when you delete the recording or the note. Recording stops when you leave the note or the app.</p>
+<p><strong>Document scanner.</strong> <em>Scan a document</em> uses Google's document scanner, which is part of Google Play services and works on your device; the app receives only the scanned pages.</p>
+<p><strong>Permissions.</strong> The app asks for internet access (to download recognition models and to show ads), network state (to warn you before using mobile data) and, only when you start a recording, the microphone. It also declares Android's advertising-ID permission, which only the ad service uses. It does not ask for storage, contacts or location.</p>
+<p><strong>Deleting your data.</strong> Delete a note in the app (it stays in the trash for 30 days), or clear the app's data or uninstall the app in Android settings. Backup files you created live wherever you saved them; delete them there.</p>
+<p><strong>Children.</strong> The app is not directed at children under 13 and does not knowingly collect their data.</p>
+<p><strong>Changes.</strong> If this policy changes, the new version will be published at the same address with a new date.</p>
+<p><strong>Contact:</strong> <a href="mailto:ttkprens@gmail.com">ttkprens@gmail.com</a></p>
+</div>
+</section>
+
+<footer>Puffy Notes &middot; TTK-prens</footer>
+</div>
+<script>
+(function(){
+  var btns=document.querySelectorAll('.langbtn'),secs=document.querySelectorAll('section.lang-sec');
+  function show(l){
+    secs.forEach(function(s){s.classList.toggle('on',s.id===l)});
+    btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.lang===l?'true':'false')});
+    document.documentElement.lang=l;
+    try{localStorage.setItem('pn-lang',l)}catch(e){}
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.lang)})});
+  var q=(location.hash||'').replace('#','');
+  var saved=null;try{saved=localStorage.getItem('pn-lang')}catch(e){}
+  var nav=(navigator.language||'tr').slice(0,2);
+  show(q==='en'||q==='tr'?q:(saved||(nav==='tr'?'tr':'en')));
+})();
+</script>
+</body>
+</html>
